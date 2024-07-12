@@ -1,0 +1,18 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon">
+<mask id="mask0_1_150" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="60" height="60">
+<path id="Bounding box" d="M0 0H60V60H0V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1_150)">
+<g id="Group 122">
+<path id="Vector" d="M7.5 7.5H17.5V17.5H7.5V7.5Z" stroke="#0A1D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M42.5 7.5H52.5V17.5H42.5V7.5Z" stroke="#0A1D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M25 7.5H35V17.5H25V7.5Z" stroke="#0A1D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M7.5 25H17.5V35H7.5V25Z" stroke="#0A1D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M42.5 25H52.5V35H42.5V25Z" stroke="#0A1D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M25 25H35V35H25V25Z" stroke="#0A1D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M25 42.5H35V52.5H25V42.5Z" stroke="#0A1D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</svg>

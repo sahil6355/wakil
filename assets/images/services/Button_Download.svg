@@ -1,0 +1,18 @@
+<svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Button - Download">
+<rect id="Rectangle 81" width="54" height="54" fill="#CA9A67"/>
+<g id="Icon">
+<mask id="mask0_1_17295" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="11" y="11" width="32" height="32">
+<path id="Bounding box" d="M11 11H43V43H11V11Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1_17295)">
+<g id="Icon_2">
+<path id="Vector" d="M29.667 15V20.3333C29.667 20.687 29.8075 21.0261 30.0575 21.2761C30.3076 21.5262 30.6467 21.6667 31.0003 21.6667H36.3337" stroke="#0A1D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M33.667 39H20.3337C19.6264 39 18.9481 38.719 18.448 38.219C17.9479 37.7189 17.667 37.0406 17.667 36.3333V17.6667C17.667 16.9594 17.9479 16.2811 18.448 15.781C18.9481 15.281 19.6264 15 20.3337 15H29.667L36.3337 21.6667V36.3333C36.3337 37.0406 36.0527 37.7189 35.5526 38.219C35.0525 38.719 34.3742 39 33.667 39Z" stroke="#0A1D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M27 33.6665V25.6665" stroke="#0A1D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M23.667 30.3335L27.0003 33.6668L30.3337 30.3335" stroke="#0A1D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

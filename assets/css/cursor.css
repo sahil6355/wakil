@@ -1,0 +1,491 @@
+/************************ Default CSS ***************************/
+
+::selection {
+  color: #fff;
+}
+
+::-moz-selection {
+  color: #fff;
+}
+
+::selection {
+  background-color: #ca9a67;
+}
+
+::-moz-selection {
+  background-color: #ca9a67;
+}
+
+.over-hide {
+  overflow: hidden;
+}
+
+/************************ Animation CSS ***************************/
+
+@keyframes shutters {
+  0% {
+    clip-path: polygon(
+      0% 0%,
+      20% 0%,
+      20% 100%,
+      20% 100%,
+      20% 0%,
+      40% 0%,
+      40% 100%,
+      40% 100%,
+      40% 0%,
+      60% 0%,
+      60% 100%,
+      60% 100%,
+      60% 0%,
+      80% 0%,
+      80% 100%,
+      80% 100%,
+      80% 0%,
+      100% 0%,
+      100% 100%,
+      0% 100%
+    );
+  }
+  100% {
+    clip-path: polygon(
+      20% 0%,
+      20% 0%,
+      20% 100%,
+      40% 100%,
+      40% 0%,
+      40% 0%,
+      40% 100%,
+      60% 100%,
+      60% 0%,
+      60% 0%,
+      60% 100%,
+      80% 100%,
+      80% 0%,
+      80% 0%,
+      80% 100%,
+      100% 100%,
+      100% 0%,
+      100% 0%,
+      100% 100%,
+      20% 100%
+    );
+  }
+}
+
+@keyframes rotate {
+  0% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    border-radius: 100% 45% 65% 100% / 95% 85% 40% 40%;
+  }
+  25% {
+    clip-path: polygon(87.5% 12.5%, 87.5% 87.5%, 12.5% 87.5%, 12.5% 12.5%);
+  }
+  50% {
+    clip-path: polygon(75% 75%, 25% 75%, 25% 25%, 75% 25%);
+  }
+  75% {
+    clip-path: polygon(37.5% 62.5%, 37.5% 37.5%, 62.5% 37.5%, 62.5% 62.5%);
+  }
+  100% {
+    clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+  }
+}
+
+@keyframes circle {
+  0% {
+    clip-path: circle(75%);
+  }
+  50% {
+    clip-path: circle(25%);
+  }
+  100% {
+    clip-path: circle(75%);
+  }
+}
+
+@keyframes color-shape-movement {
+  0% {
+    clip-path: polygon(
+      0 0,
+      50% 0,
+      100% 0,
+      100% 50%,
+      100% 100%,
+      50% 100%,
+      0 100%,
+      0 50%
+    );
+  }
+  100% {
+    clip-path: polygon(
+      50% 50%,
+      50% 25%,
+      50% 50%,
+      75% 50%,
+      50% 50%,
+      50% 75%,
+      50% 50%,
+      25% 50%
+    );
+  }
+}
+
+@keyframes rotate {
+  0% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  25% {
+    clip-path: polygon(87.5% 12.5%, 87.5% 87.5%, 12.5% 87.5%, 12.5% 12.5%);
+  }
+  50% {
+    clip-path: polygon(75% 75%, 25% 75%, 25% 25%, 75% 25%);
+  }
+  75% {
+    clip-path: polygon(37.5% 62.5%, 37.5% 37.5%, 62.5% 37.5%, 62.5% 62.5%);
+  }
+  100% {
+    clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+  }
+}
+
+@keyframes slots {
+  0% {
+    clip-path: polygon(
+      0% 0%,
+      14% 0%,
+      14% 0%,
+      28% 0%,
+      28% 0%,
+      42% 0%,
+      42% 0%,
+      56% 0%,
+      56% 0%,
+      70% 0%,
+      70% 0%,
+      84% 0%,
+      84% 0%,
+      100% 0,
+      100% 100%,
+      0% 100%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0% 0%,
+      14% 0%,
+      14% 100%,
+      28% 100%,
+      28% 0%,
+      42% 0%,
+      42% 100%,
+      56% 100%,
+      56% 0%,
+      70% 0%,
+      70% 100%,
+      84% 100%,
+      84% 0%,
+      100% 0,
+      100% 100%,
+      0% 100%
+    );
+  }
+  100% {
+    clip-path: polygon(
+      0% 100%,
+      14% 100%,
+      14% 100%,
+      28% 100%,
+      28% 100%,
+      42% 100%,
+      42% 100%,
+      56% 100%,
+      56% 100%,
+      70% 100%,
+      70% 100%,
+      84% 100%,
+      84% 100%,
+      100% 100%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+/************************ Cursor CSS ***************************/
+
+.cursor {
+  --size: 8px;
+  height: var(--size);
+  width: var(--size);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 10000;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.cursor.cursor-shadow {
+  background-color: transparent;
+  border: 1px solid #ca9a67;
+  --size: 40px;
+  transition: top 0.2s, left 0.2s, width 0.2s, height 0.2s,
+  background-color 0.2s, border-color 0.2s;
+  transition-timing-function: ease-out;
+}
+.cursor.cursor-dot {
+  background: #ca9a67;
+  transition: width 0.2s, height 0.2s;
+}
+.cursor-shadow.active {
+  --size: 80px;
+  border-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.cursor-dot.active {
+  --size: 0;
+}
+
+/************************ Blog cursor images CSS ***************************/
+
+.cursor-shadow.hover_image {
+  border-radius: unset;
+  width: 300px;
+  height: 300px;
+  border-color: transparent !important;
+  background-repeat: no-repeat;
+}
+
+.cursor.cursor-dot.active{
+  background-color: transparent;
+}
+
+.cursor-shadow.cursor-link-demo-1 {
+  background-image: url('../images/cursor/Hover2018.png') !important;
+  border-radius: unset;
+  width: 300px;
+  height: 300px;
+  border-color: transparent !important;
+  background-repeat: no-repeat;
+}
+
+.cursor-shadow.cursor-link-demo-2 {
+  background-image: url('../images/cursor/Hover2019.png') !important;
+  border-radius: unset;
+  width: 300px;
+  height: 300px;
+  border-color: transparent !important;
+  background-repeat: no-repeat;
+}
+
+.cursor-shadow.cursor-link-demo-3 {
+  background-image: url('../images/cursor/Hover2020.png') !important;
+  border-radius: unset;
+  width: 300px;
+  height: 300px;
+  border-color: transparent !important;
+  background-repeat: no-repeat;
+}
+
+.cursor-shadow.cursor-link-demo-4 {
+  background-image: url('../images/cursor/Hover2021.png') !important;
+  border-radius: unset;
+  width: 300px;
+  height: 300px;
+  border-color: transparent !important;
+  background-repeat: no-repeat;
+}
+
+.cursor-shadow.cursor-link-demo-5 {
+  background-image: url('../images/cursor/Hover2022.png') !important;
+  border-radius: unset;
+  width: 300px;
+  height: 300px;
+  border-color: transparent !important;
+  background-repeat: no-repeat;
+}
+
+.cursor-shadow.active-blog-post-14 {
+  background-image: var(--bgs-image);
+  border-radius: 100% 45% 65% 100% / 95% 85% 40% 40%; 
+  width: 370px;
+  height: 410px;
+  border-color: transparent !important;
+  background-repeat: no-repeat;  
+  animation: shutters2 3s infinite; 
+  animation-duration: 5s;
+  animation-iteration-count: 3; 
+  background-size: cover;  
+}
+
+.cursor-shadow.active-blog-post-15 {
+  background-image: var(--bgs-image);
+  border-radius: 100% 45% 65% 100% / 95% 85% 40% 40%; 
+  width: 370px;
+  height: 410px;
+  border-color: transparent !important;
+  background-repeat: no-repeat;  
+  animation: rotate2 3s infinite; 
+  animation-duration: 5s;
+  animation-iteration-count: 3; 
+  background-size: cover; 
+}
+
+.cursor-shadow.active-blog-post-16 {
+  background-image:var(--bgs-image);
+  border-radius: 100% 45% 65% 100% / 95% 85% 40% 40%; 
+  width: 370px;
+  height: 410px;
+  border-color: transparent !important;
+  background-repeat: no-repeat;   
+  animation: circle2 3s infinite; 
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+  background-size: cover;  
+}
+
+.cursor-shadow.active-blog-post-17 {
+  background-image: var(--bgs-image);
+  width: 370px;
+  height: 410px;
+  border-color: transparent !important;
+  background-repeat: no-repeat;   
+  animation-name: color-shape-movement2;
+  animation-duration: 5s;
+  animation-iteration-count: 3; 
+  clip-path: circle(100%);
+  border-radius: 100% 45% 65% 100% / 95% 85% 40% 40%;
+  background-size: cover;  
+}
+
+.cursor-shadow.active-blog-post-18 {
+  background-image: var(--bgs-image);
+  border-radius: 100% 45% 65% 100% / 95% 85% 40% 40%; 
+  width: 370px;
+  height: 410px;
+  border-color: transparent !important;
+  background-repeat: no-repeat;  
+  animation: 1s slots2 reverse;
+  animation: 1s slots2;
+  animation-duration: 5s;
+  animation-iteration-count: 3; 
+  background-size: cover; 
+}
+
+.cursor-shadow.active-blog-post-19{
+  background-image: var(--bgs-image);
+  border-radius: 100% 45% 65% 100% / 95% 85% 40% 40%; 
+  border-radius: unset;
+  width: 420px;
+  height: 445px;
+  border-color: transparent !important;
+  background-repeat: no-repeat;
+  animation: morph2 8s ease-in-out infinite 1s;
+  animation-duration: 5s;
+  animation-iteration-count: 3; 
+  background-size: cover; 
+}
+
+.cursor-shadow.active-cursor-style-1{
+  background-color: #ca9a67;
+  --size: 80px;
+  opacity: 0.4;
+}
+
+.cursor.cursor-dot.active-cursor-style-1{
+  display: none;
+}
+
+.cursor-shadow.active-cursor-style-2{
+  background-color: #FFF;
+  --size:80px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #CA9A67;
+  text-align: center;
+  font-family: "Mulish",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; 
+}
+
+.cursor.cursor-dot.active-cursor-style-2{
+  background: transparent;
+}
+
+@keyframes shutters2 {
+  0% {
+    clip-path: polygon(0% 0%, 20% 0%, 20% 100%, 20% 100%, 20% 0%, 40% 0%, 40% 100%, 40% 100%, 40% 0%, 60% 0%, 60% 100%, 60% 100%, 60% 0%, 80% 0%, 80% 100%, 80% 100%, 80% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  100% {
+    clip-path: polygon(20% 0%, 20% 0%, 20% 100%, 40% 100%, 40% 0%, 40% 0%, 40% 100%, 60% 100%, 60% 0%, 60% 0%, 60% 100%, 80% 100%, 80% 0%, 80% 0%, 80% 100%, 100% 100%, 100% 0%, 100% 0%, 100% 100%, 20% 100%);
+  }
+}
+
+@keyframes rotate2 {
+  0% { clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); }
+  25% { clip-path: polygon(87.5% 12.5%, 87.5% 87.5%, 12.5% 87.5%, 12.5% 12.5%); }
+  50% { clip-path: polygon(75% 75%, 25% 75%, 25% 25%, 75% 25%); }
+  75% { clip-path: polygon(37.5% 62.5%, 37.5% 37.5%, 62.5% 37.5%, 62.5% 62.5%); }
+  100% { clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%); }
+}
+
+@keyframes morph2 {
+ 0% {
+   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+ }
+ 50% {
+   border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+ }
+ 100% {
+   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+ }
+}
+
+@keyframes slots2 {
+  0% {
+    clip-path: polygon(0% 0%, 14% 0%, 14% 0%, 28% 0%, 28% 0%, 42% 0%, 42% 0%, 56% 0%, 56% 0%, 70% 0%, 70% 0%, 84% 0%, 84% 0%, 100% 0, 100% 100%, 0% 100%);
+  }
+  50% {
+    clip-path: polygon(0% 0%, 14% 0%, 14% 100%, 28% 100%, 28% 0%, 42% 0%, 42% 100%, 56% 100%, 56% 0%, 70% 0%, 70% 100%, 84% 100%, 84% 0%, 100% 0, 100% 100%, 0% 100%);
+  }
+  100% {
+    clip-path: polygon(0% 100%, 14% 100%, 14% 100%, 28% 100%, 28% 100%, 42% 100%, 42% 100%, 56% 100%, 56% 100%, 70% 100%, 70% 100%, 84% 100%, 84% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+}
+
+@keyframes color-shape-movement2 {
+  0% { clip-path: polygon(0 0, 50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%); }
+  100% { clip-path:  polygon(50% 50%, 50% 25%, 50% 50%, 75% 50%, 50% 50%, 50% 75%, 50% 50%, 25% 50%); }
+}
+
+@keyframes circle2 {
+  0% { clip-path: circle(75%); }
+  50% { clip-path: circle(25%); }
+  100% { clip-path: circle(75%); }
+}
+
+@keyframes slots2 {
+  0% {
+    clip-path: polygon(0% 0%, 14% 0%, 14% 0%, 28% 0%, 28% 0%, 42% 0%, 42% 0%, 56% 0%, 56% 0%, 70% 0%, 70% 0%, 84% 0%, 84% 0%, 100% 0, 100% 100%, 0% 100%);
+  }
+  50% {
+    clip-path: polygon(0% 0%, 14% 0%, 14% 100%, 28% 100%, 28% 0%, 42% 0%, 42% 100%, 56% 100%, 56% 0%, 70% 0%, 70% 100%, 84% 100%, 84% 0%, 100% 0, 100% 100%, 0% 100%);
+  }
+  100% {
+    clip-path: polygon(0% 100%, 14% 100%, 14% 100%, 28% 100%, 28% 100%, 42% 100%, 42% 100%, 56% 100%, 56% 100%, 70% 100%, 70% 100%, 84% 100%, 84% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+}
